@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String user_name = "";
+        String user_name = scanner.nextLine().trim();
         scanner.close();
 
 
