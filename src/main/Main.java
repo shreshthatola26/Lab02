@@ -1,5 +1,6 @@
 package main;
 
+import java.util.Scanner;
 /**
  * @author Shrestha
  * @version 12.0.2
@@ -7,7 +8,10 @@ package main;
 
 public class Main {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         String user_name = "";
+        scanner.close();
+
 
 
     }
